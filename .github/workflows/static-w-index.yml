@@ -33,7 +33,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Generate index
         run: |
-         sudo apt install tree
          tree -H . -o ls.html
          patch ls.html tree-fixcss.patch
         shell: bash
