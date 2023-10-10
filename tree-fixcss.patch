@@ -7,7 +7,7 @@
 >     src: url(/fonts/Hack-Regular.ttf);
 >   }
 >   BODY { font-family : Hack;  color: black;}
->   P { font-family : Hack; color: black; margin:0px; padding: 0px;}
+>   P { font-family : Hack; color: black; margin:0px; padding: 0px; white-space: nowrap;}
 18c22
 <   .CHAR  { color: yellow; }
 ---
