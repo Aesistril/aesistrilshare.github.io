@@ -1,6 +1,6 @@
 #!/bin/bash
 cat template/redirect.html | sed "s|ae\-remote\-site|$1|g" > link/$2.html
 git add *
-git commit -m "add link"
+git commit -m "add link/${2}.html"
 git push
 echo Your link is live at share.aesistril.com/link/$2.html
